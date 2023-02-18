@@ -8,5 +8,10 @@ public class Main {
         bird1.activity();
         Monkey monkey1 = new Monkey("şebek",2);
         monkey1.activity("I can jump from one branch to another");
+        Bird bird = new Bird("alkdsf",12);
+
+        //polimorfizm
+        Animal[] animals = {bird1, dog1, monkey1};
+        Animal.getFeatures(animals);
     }
 }

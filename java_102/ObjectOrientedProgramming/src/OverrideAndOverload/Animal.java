@@ -38,4 +38,14 @@ public class Animal {
     public void activity(String extras) {
         System.out.println("I can walk and run. Also " + extras);
     }
+
+    public String features() {
+        return ("My name is " + this.getName() + " and I have " + this.getLegs() + " legs");
+    }
+
+    public static void getFeatures(Animal[] animals) {
+        for (Animal animal: animals) {
+            System.out.println(animal.features());
+        }
+    }
 }
