@@ -1,2 +1,2 @@
 # PatikaJava-devleri
-Java 101 eğitimi kapsamında yapılacak tüm ödevler
+Java 101 ve java 102 eğitimleri kapsamında yapılacak tüm ödevler 
